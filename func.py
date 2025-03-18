@@ -1,6 +1,4 @@
 import openai
-import os
-import dotenv
 client = openai.AzureOpenAI(
     azure_endpoint = "https://neocentrailopenai202511.openai.azure.com/openai/deployments/Resumeevalutors-GPT-4O/chat/completions?api-version=2024-02-15-preview",
     api_key = "7MGSGMYxydjX4zq5frYyugqUvIDb71ZAvrJziiGEVFRXyFcFJsqdJQQJ99BCACHYHv6XJ3w3AAABACOGCO3N",
